@@ -12,6 +12,8 @@ int main() {
 
   int insertAmount = 10; // The amount to insert on each pass
   do {
+    cout << "Insertion Amount: " << insertAmount << endl;
+
     multiset<int> multi;
     clock_t multiStart = clock(); // The start time for the regular multiset
     for (int i = 0; i < insertAmount; i++) {
